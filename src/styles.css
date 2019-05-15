@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.user-item {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px 0;
+}
+
+.user-item div {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.user-item .email {
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 0px 5px;
+}
